@@ -1,0 +1,276 @@
+
+header .firstShow {
+    background-image: url('our-approach-bg@2x.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+header .thirdShow {
+    background-image: url('mansour-our-origins-bg@2x.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+header .fourthShow {
+    background-image: url('mansour-positive-impact-bg@2x.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+header .fifthShow {
+    background-image: url('global-reach-bg@2x.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.headerPhoto {
+    height: 100vh;
+}
+
+.mylogo {
+    height: 70px;
+}
+
+.firstLayer {
+    width: 100%;
+    height: 100vh;
+}
+
+.secondLayer {
+    background-image: url('logoo2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.thirdLayer {
+    background-image: url('mansour-atlas (1).svg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.brd {
+    background-color: gray;
+    width: 2px;
+    height: 30px;
+    margin: auto;
+}
+
+#dna {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 200;
+}
+
+#myp2 {
+    color: #00b4ff;
+}
+
+#myh {
+    color: #033762;
+}
+
+.myphoto {
+    top: 0%;
+    left: 50%;
+}
+
+.mycol {
+    width: 100%;
+    height: 100%;
+}
+
+.myphoto2 {
+    width: 100%;
+    height: 100%;
+}
+
+.myphoto3 {
+    width: 100%;
+    height: 75%;
+}
+
+.myframe {
+    height: 102px;
+    width: 500px;
+    border: 0;
+}
+
+.myphoto4 {
+    width: 100%;
+    height: 25%;
+}
+
+.myphoto5 {
+    width: 100%;
+    height: 50%;
+}
+
+.myphoto6 {
+    width: 60%;
+    height: 20%;
+}
+
+.myphoto7 {
+    width: 30%;
+    height: 20%;
+}
+
+.myphoto8 {
+    width: 40%;
+    height: 30%;
+}
+
+.myprgraph {
+    font-size: 12px;
+}
+
+.iframeclick {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: rgba(3, 55, 98, .9)!important;
+    display: none;
+}
+
+.iframes {
+    position: relative;
+    top: -200px;
+}
+
+.myexit {
+    position: absolute;
+    right: 30px;
+}
+
+.videoiframe {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent {
+    position: relative;
+    overflow: hidden;
+}
+
+.child {
+    text-align: center;
+    position: absolute;
+    background-color: #035fbd;
+    ;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s opacity;
+}
+
+.child:hover {
+    opacity: 1;
+}
+
+.child h3 {
+    position: relative;
+    left: 150%;
+    transition: 1s left;
+    margin: 5rem 0rem 0rem;
+}
+
+.child:hover h3 {
+    left: 0%;
+}
+
+.child p {
+    position: relative;
+    left: 150%;
+    transition: 1s left;
+    padding: 1.5rem 0rem;
+}
+
+.child:hover p {
+    left: 0%;
+}
+
+.mythirdsection {
+    height: 500px;
+    background-image: url('blue.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.mythirdsection2 {
+    height: 500px;
+    background-image: url('yellow.jpg');
+    background-size: cover;
+}
+
+.mythirdsection3 {
+    height: 500px;
+    background-image: url('green.jpg');
+    background-size: cover;
+}
+
+.mythirdsection4 {
+    height: 500px;
+    background-image: url('red.jpg');
+    background-size: cover;
+}
+
+.mythirdsection5 {
+    height: 500px;
+    background-image: url('gray.jpg');
+    background-size: cover;
+}
+
+.mythirdsection6 {
+    height: 500px;
+    background-image: url('darkgreen.jpg');
+    background-size: cover;
+}
+
+.myspesialp {
+    font-family: "Playfair Display", serif;
+}
+
+.mychandecolor {
+    transform: scale(1.2, 1.2);
+    box-shadow: 0 0 10px 5px rgb(0 0 0 / 10%);
+}
+
+.ddd {
+    display: none;
+}
+
+.mylinee {
+    height: 2px;
+    background-color: grey;
+}
+
+.imgofhand {
+    width: 60px;
+}
+
+.mysecondline {
+    width: 7%;
+    height: 3px;
+    display: none;
+    background-color: white;
+}
+
+.myfourthsection {
+    cursor: pointer;
+}

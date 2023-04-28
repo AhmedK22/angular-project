@@ -1,0 +1,202 @@
+            .mynav {
+                background-image: url('background.jpg');
+                height: 300px;
+                background-size: cover;
+            }
+
+            .mylistbar {
+                margin: auto;
+                margin-left: 5px;
+            }
+
+            .mylogo {
+                height: 70px;
+                margin-left: 5px;
+            }
+
+            .mylinee {
+                height: 2px;
+                background-color: grey;
+            }
+
+            .myline {
+                height: 3px;
+                background-color: blue;
+            }
+
+            .mysecondsection {
+                height: 400px;
+            }
+
+            .myline {
+                width: 35px;
+                height: 3px;
+                background-color: gray;
+                transform-origin: top right;
+                transform: rotate(-90deg);
+            }
+
+            .profile {
+                border-radius: 50%;
+            }
+
+            .textofbio {
+                color: #0978bd;
+                font-size: 22px;
+                line-height: 26px;
+                text-align: center;
+                font-weight: 400;
+            }
+
+            .paraofbio {
+                font-size: 20px;
+            }
+
+            .leftpara {
+                font-size: 22px;
+                color: blue;
+            }
+
+            .rightpara {
+                font-size: 16px;
+            }
+
+            .foundername {
+                // font-size: 32px;
+                font-style: italic;
+                color: blue;
+                font-weight: 900px;
+            }
+
+            .ddd {
+                display: none;
+            }
+
+            .myclr2 {
+                background-color: #d5e6ee;
+            }
+
+            .myclr {
+                background-color: #f0f6f9;
+            }
+
+            @media (min-width:200px)and(max-width:950px) {
+                .mynavv {
+                    position: absolute;
+                    top: 5px;
+                    right: 20px;
+                }
+            }
+
+            @media (min-width:200px)and(max-width:950px) {
+                .mylinee {
+                    display: none;
+                }
+            }
+
+            .mysecondline {
+                width: 7%;
+                height: 3px;
+                display: none;
+                background-color: white;
+            }
+
+            .mynavfontcolor li a {
+                color: white;
+            }
+
+            h1 {
+                font-family: "Playfair Display", serif;
+                font-size: 48px;
+                font-weight: 300;
+            }
+
+            h3 em {
+                font-family: "Playfair Display", serif;
+                font-style: italic;
+                font-weight: 400;
+            }
+
+            h3 {
+                font-size: 36px;
+                font-weight: 400;
+                color: #033762;
+                line-height: 1.2em;
+                letter-spacing: -1p
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                clear: both;
+                //  text-align: center;
+                margin-top: 0;
+            }
+
+            .home-ogp {
+                font-family: "Playfair Display", serif;
+                color: #00b4ff;
+                text-align: center;
+            }
+
+            p {
+                overflow-wrap: break-word;
+            }
+
+            .thethirdsection {
+                background-color: #f0f6f9 !important;
+            }
+
+            h2 {
+                text-transform: uppercase;
+                font-size: 12px;
+                color: #0978bd;
+                text-align: center;
+                font-style: normal;
+                font-weight: 500;
+            }
+
+            .myclr h5 {
+                font-size: 64px;
+            }
+
+            .lastpara {
+                font-family: "Playfair Display", serif;
+                color: #033762;
+                font-size: 20px;
+                font-style: italic;
+            }
+
+            .lasthead {
+                color: #033762;
+                font-size: 30px;
+                line-height: 1.3em;
+                font-weight: 500;
+                margin-bottom: .33em;
+            }
+
+            .myphoto {
+                width: 100%;
+                height: 50%;
+            }
+
+            .divofyears {
+                width: 150%;
+            }
+
+            .mywidth {
+                height: 80px;
+            }
+
+            .mywidth2 {
+                height: 200px;
+            }
+
+            @media (min-width:200px)and(max-width:950px) {
+                .imgend {
+                    display: none;
+                }
+            }

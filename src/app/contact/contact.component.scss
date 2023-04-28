@@ -1,0 +1,48 @@
+header {
+    background-image: url('pic.jpg');
+    background-size: cover;
+    height: 50vh;
+}
+
+header .layer {
+    height: 50%;
+}
+
+.brd {
+    background-color: gray;
+    width: 2px;
+    height: 30px;
+    margin: auto;
+}
+
+#myp {
+    font-family: "Playfair Display", serif;
+    color: #00b4ff;
+}
+
+#myp2 {
+    font-size: 12px;
+    color: #0978bd;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#myh {
+    color: #033762;
+}
+
+.mylogo {
+    height: 70px;
+}
+
+.mylinee {
+    height: 2px;
+    background-color: grey;
+}
+
+.mysecondline {
+    width: 7%;
+    height: 3px;
+    display: none;
+    background-color: white;
+}

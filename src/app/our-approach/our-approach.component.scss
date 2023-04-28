@@ -1,0 +1,70 @@
+.mynav {
+    background-image: url('background2.jpg');
+    height: 300px;
+    background-size: cover;
+}
+
+.mylistbar {
+    margin: auto;
+    margin-left: 5px;
+}
+
+.mylogo {
+    height: 70px;
+    margin-left: 5px;
+}
+
+.mylinee {
+    height: 2px;
+    background-color: grey;
+}
+
+.myline {
+    width: 35px;
+    height: 3px;
+    background-color: gray;
+    transform-origin: top right;
+    transform: rotate(-90deg);
+}
+
+.mysecondline {
+    width: 7%;
+    height: 5px;
+    display: none;
+    background-color: white;
+}
+
+@media (min-width:200px)and(max-width:950px) {
+    .mynavv {
+        position: fixed;
+        top: 5px;
+        right: 20px;
+    }
+}
+
+@media (min-width:200px)and(max-width:950px) {
+    .mylinee {
+        display: none;
+    }
+}
+
+.mysmallsize {
+    z-index: 20;
+    height: 100%;
+    position: absolute;
+    background-color: blue;
+    top: 70px;
+    left: 75%;
+    display: none;
+}
+
+.mynavfontcolor li a {
+    color: white;
+}
+
+.mysecondline {
+    width: 7%;
+    height: 3px;
+    display: none;
+    background-color: white;
+}

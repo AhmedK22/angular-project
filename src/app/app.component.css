@@ -1,0 +1,22 @@
+.myline {
+  width: 35px;
+  height: 3px;
+  background-color: gray;
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.mylogo {
+  height: 70px;
+}
+
+.lastsection {
+  background-color: blue;
+}
+
+p {
+  color: white;
+}
+/*# sourceMappingURL=app.component.css.map */

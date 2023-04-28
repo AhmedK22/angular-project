@@ -1,0 +1,178 @@
+.mynav {
+    background-image: url('background3.jpg');
+    height: 300px;
+    background-size: cover;
+}
+
+.mylistbar {
+    margin: auto;
+    margin-left: 5px;
+}
+
+.mylogo {
+    height: 70px;
+    margin-left: 5px;
+}
+
+.mylinee {
+    height: 2px;
+    background-color: grey;
+}
+
+.myline {
+    width: 35px;
+    height: 3px;
+    background-color: gray;
+    transform-origin: top right;
+    transform: rotate(-90deg);
+}
+
+.mythirdsection {
+    height: 400px;
+    background-image: url('blue.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.mythirdsection2 {
+    height: 400px;
+    background-image: url('yellow.jpg');
+    background-size: cover;
+}
+
+.mythirdsection3 {
+    height: 400px;
+    background-image: url('green.jpg');
+    background-size: cover;
+}
+
+.mythirdsection4 {
+    height: 400px;
+    background-image: url('red.jpg');
+    background-size: cover;
+}
+
+.mythirdsection5 {
+    height: 400px;
+    background-image: url('gray.jpg');
+    background-size: cover;
+}
+
+.mythirdsection6 {
+    height: 400px;
+    background-image: url('darkgreen.jpg');
+    background-size: cover;
+}
+
+.myspesialp {
+    font-family: "Playfair Display", serif;
+}
+
+.mychandecolor {
+    transform: scale(1.2, 1.2);
+    box-shadow: 0 0 10px 5px rgb(0 0 0 / 10%);
+}
+
+.ddd {
+    display: none;
+}
+
+.logoofitems {
+    height: 300px;
+    top: 20px;
+}
+
+.theappearance1 {
+    display: none;
+}
+
+.theappearance2 {
+    display: none;
+}
+
+.theappearance3 {
+    display: none;
+}
+
+.theappearance4 {
+    display: none;
+}
+
+.theappearance5 {
+    display: none;
+}
+
+.theappearance6 {
+    display: none;
+}
+
+.theappearance7 {
+    display: none;
+}
+
+.theappearance8 {
+    display: none;
+}
+
+$no :20;
+@for $i from 0 to 20 {
+    .theappearance#{$i} {
+        display: none;
+    }
+}
+
+.darkgreenpart {
+    display: none;
+}
+
+.redpart {
+    display: none;
+}
+
+.yellowpart {
+    display: none;
+}
+
+.graypart {
+    display: none;
+}
+
+.greenpart {
+    display: none;
+}
+
+.darkgreentitle {
+    display: none;
+}
+
+.redtitle {
+    display: none;
+}
+
+.yellowtitle {
+    display: none;
+}
+
+.graytitle {
+    display: none;
+}
+
+.greentitle {
+    display: none;
+}
+
+.mynavfontcolor li a {
+    color: white;
+}
+
+.imgofhand {
+    width: 60px;
+}
+
+.mysecondline {
+    width: 7%;
+    height: 3px;
+    display: none;
+    background-color: white;
+}

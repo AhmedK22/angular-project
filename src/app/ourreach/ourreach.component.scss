@@ -1,0 +1,90 @@
+.firstsection {
+    height: 400px;
+}
+
+.iframeclick {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: rgba(3, 55, 98, .9)!important;
+    display: none;
+}
+
+.iframes {
+    position: relative;
+    top: -200px;
+}
+
+.myexit {
+    position: absolute;
+    right: 30px;
+}
+
+.videoiframe {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myline {
+    width: 35px;
+    height: 3px;
+    background-color: gray;
+    transform-origin: top right;
+    transform: rotate(-90deg);
+}
+
+.testclass {
+    background-color: #033762;
+    height: 400px;
+    width: 100%;
+}
+
+.mapblue {
+    height: 400px;
+}
+
+.buttonfosliders {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.containerpicsofslide {
+    position: relative;
+    height: 200px;
+}
+
+.lasttest {
+    background-color: #0978bd !important;
+    background-image: url('logoo2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 500px;
+}
+
+
+/*.lasttest {
+    background-image: url('logoo2.png');
+    background-color: #0978bd !important;
+    ;
+    height: 500px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}*/
+
+
+/*@media (min-width:200px)and(max-width:900px) {
+    .backhand {
+        height: 150px;
+    }
+}
+*/

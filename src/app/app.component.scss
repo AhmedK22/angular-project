@@ -1,0 +1,79 @@
+    .myline {
+        width: 35px;
+        height: 3px;
+        background-color: gray;
+        transform-origin: top right;
+        transform: rotate(-90deg);
+    }
+
+    .mylogo {
+        height: 70px;
+    }
+
+    .last {
+        font-size: 12px;
+    }
+
+    .lastsection p {
+        color: white;
+    }
+
+    .backtoup {
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        display: none;
+    }
+
+    @media (min-width:200px)and(max-width:950px) {
+        .mynavv {
+            position: absolute;
+            top: 5px;
+            right: 20px;
+        }
+    }
+
+    @media (min-width:200px)and(max-width:950px) {
+        .mylinee {
+            display: none;
+        }
+    }
+
+    .mysmallsize {
+        z-index: 30;
+        height: 100%;
+        position: absolute;
+        background-color: blue;
+        top: 100px;
+        left: 30%;
+        display: none;
+        width: 100%;
+    }
+
+    .menu {
+        position: fixed;
+        top: 15px;
+        right: 10px;
+        width: 130px;
+        background-color: blue;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        font-size: 40px;
+        // border-radius: 20%;
+        display: none;
+    }
+
+    @media (min-width:200px)and(max-width:950px) {
+        .mynavv {
+            position: absolute;
+            top: 5px;
+            right: 20px;
+        }
+    }
+
+    @media (min-width:200px)and(max-width:950px) {
+        .mylinee {
+            display: none;
+        }
+    }
